@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Produk - BAITI SCRAF</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <h1>BAITI SCRAF</h1>
+    <nav>
+      <a href="index.html"><strong>BERANDA</strong></a>
+      <a href="produk.html"><strong>PRODUK</strong></a>
+      <a href="keranjang.html"><img src="lg.kr.jpeg" alt="Keranjang" class="icon" /><i class="fas fa-shopping-cart"></i> <span id="cart-count"></span></a>
+      <a href="kontak.html"><strong>KONTAK</strong></a>
+    </nav>
+  </header>
+ 
+   <!--untuk bagian logo-->
+  <section class="hero">
+    <div class="hero-logo">
+      <img src="logo.baiti.jpg" alt="Logo Toko BAITI SCRAF" />
+    </div>
+    <div class="hero-text">
+      <h2>Selamat Datang di E-Commerce Sederhana<br></h2>
+      <p>Temukan Perlengkapan Hijab Cantikmu di Sini!</p>
+      <p>Klik Produk di atas untuk menemukan produk kami..Thanks For Ordering🤩</p>
+    </div>
+    <div class="search-filter">
+    <input type="text" id="search-input" placeholder="Cari produk..." />
+    </div>
+  </section>
+
+      <main>
+      <!-- Produk 1 -->
+      <div class="product-card">
+        <img src="Mukena sutera velvet.jpg" alt="Mukena polos">
+        <h4>Mukena Polos Silk</h4>
+        <p>Simpel dan elegan</p>  
+        <div class="price">Rp250.000</div>
+        <div class="rating">★★★★★ (4.8)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+      </div>
+    </main>
+
+      <!-- Produk 2 -->
+    <main>
+      <div class="product-card">
+        <img src="Mukena.Traveling.jpg" alt="Mukena Trevel">
+        <h4>Mukena Traveling</h4>
+        <p>Sikecil dan simpel</p>
+        <div class="price">Rp180.000</div>
+        <div class="rating">★★★★★ (4.9)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+        </div>
+      </main>
+
+      <main>
+      <!-- Produk 3 -->
+      <div class="product-card">
+        <img src="hijab.bergo.jpg" alt="Hijab Bergo">
+        <h4>Hijab Bergo</h4>
+        <p>Sipaling simpel</p>
+        <div class="price">Rp20.000</div>
+        <div class="rating">★★★★☆ (4.4)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+        </div>
+      </main>
+
+      <main>
+      <!-- Produk 4 -->
+      <div class="product-card">
+        <img src="paris.jpg" alt="Segiempat Polos">
+        <h4>Segiempat Polos</h4>
+        <p>Adem dan nyaman</p>
+        <div class="price">Rp30.000</div>
+        <div class="rating">★★★★☆ (4.3)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+        </div>
+      </main>
+      <main>
+      <!-- Produk 5 -->
+      <div class="product-card">
+        <img src="baby doll.jpg" alt="Pashmina Baby doll">
+        <h4>Pashmina Baby doll</h4>
+        <p>Hijab Pashmina simpel</p>
+        <p>One Size</p>
+        <p>Semua warna tesedia sesuai dalam foto</p>       
+        <div class="price">Rp35.000</div>
+        <div class="rating">★★★☆☆ (3.8)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+        </div>
+      </main>
+
+      <main>
+      <!-- Produk 6 -->
+      <div class="product-card">
+        <img src="hijab.inner.jpg" alt="Inner">
+        <h4>Inner Hijab</h4>
+        <p>Bahannya adem dan ringan</p>
+        <p>One Size</p>
+        <p>Hubungi admin untuk cek warna yang masih terdedia</p>        
+        <div class="price">Rp8.000</div>
+        <div class="rating">★★★★★ (4.9)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+        </div>
+      </main>
+       
+      <main>
+      <!-- Produk 7 -->
+      <div class="product-card">
+        <img src="cepol.jpg" alt="Cepol">
+        <h4>Scrunchie</h4>
+        <p>Bahannya nyaman dan bervolume </p>
+        <div class="price">Rp10.000</div>
+        <div class="rating">★★★★★ (4.9)</div>
+        <div class="buttons">
+        <button onclick="tambahKeKeranjang('Hijab Motif', 50000)">Tambah ke Keranjang</button>
+        <a href="https://wa.me/6283894922074?text=Halo%20saya%20tertarik%20dengan%20produk%20Anda" target="_blank">
+        <button style="padding: 10px 20px; background-color: #6EC1E4; color: white; border: none; border-radius: 5px; cursor: pointer;">Beli Sekarang</button></a>
+        </div>
+      </main>
+    </div>
+  </main>
+
+
+  </main>
+
+  <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-info">
+        <h4>Kritik,Saran,dan Masukan juga bagi yang ingin Kerjasama bisa hubungi melalui Kontak Di bawah ini</h4>
+        <h5>Teriamakasih</h5>
+    <p>Alamat    : Jl.Cipedes Hegar, Pajajaran, Cicendo, Kota Bandung</p>
+    <p>WhatsApp  : 0839-9492-2074</p>
+    <p>Instagram : @Baiti.Scraf</p>
+    <p>Email     : tianisanr@gmai.com</p>
+  </footer>
+   &copy; 2025 BAITI SCRAF. Tia Nisa Nurbaiti
+</body>
+</html>
